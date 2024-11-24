@@ -2,10 +2,10 @@
 	path = src/modules/mavlink/mavlink
 	url = https://github.com/mavlink/mavlink.git
 	branch = master
-[submodule "Tools/simulation/jmavsim/jMAVSim"]
-	path = Tools/simulation/jmavsim/jMAVSim
-	url = https://github.com/PX4/jMAVSim.git
-	branch = main
+# [submodule "Tools/simulation/jmavsim/jMAVSim"]
+# 	path = Tools/simulation/jmavsim/jMAVSim
+# 	url = https://github.com/PX4/jMAVSim.git
+# 	branch = main
 [submodule "Tools/simulation/gazebo-classic/sitl_gazebo-classic"]
 	path = Tools/simulation/gazebo-classic/sitl_gazebo-classic
 	url = https://github.com/griimmm/PX4-SITL_gazebo-classic.git
@@ -72,10 +72,10 @@
 	path = src/lib/heatshrink/heatshrink
 	url = https://github.com/PX4/heatshrink.git
 	branch = px4
-[submodule "Tools/simulation/gz"]
-	path = Tools/simulation/gz
-	url = https://github.com/PX4/PX4-gazebo-models.git
-	branch = main
+# [submodule "Tools/simulation/gz"]
+# 	path = Tools/simulation/gz
+# 	url = https://github.com/PX4/PX4-gazebo-models.git
+# 	branch = main
 [submodule "boards/modalai/voxl2/libfc-sensor-api"]
 	path = boards/modalai/voxl2/libfc-sensor-api
 	url = https://gitlab.com/voxl-public/voxl-sdk/core-libs/libfc-sensor-api.git
