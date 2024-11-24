@@ -2,18 +2,18 @@
 	path = src/modules/mavlink/mavlink
 	url = https://github.com/mavlink/mavlink.git
 	branch = master
-[submodule "Tools/simulation/jmavsim/jMAVSim"]
-	path = Tools/simulation/jmavsim/jMAVSim
-	url = https://github.com/PX4/jMAVSim.git
-	branch = main
+# [submodule "Tools/simulation/jmavsim/jMAVSim"]
+# 	path = Tools/simulation/jmavsim/jMAVSim
+# 	url = https://github.com/PX4/jMAVSim.git
+# 	branch = main
 [submodule "Tools/simulation/gazebo-classic/sitl_gazebo-classic"]
 	path = Tools/simulation/gazebo-classic/sitl_gazebo-classic
 	url = https://github.com/griimmm/PX4-SITL_gazebo-classic.git
 	branch = proj_dev
-[submodule "src/drivers/gps/devices"]
-	path = src/drivers/gps/devices
-	url = https://github.com/PX4/PX4-GPSDrivers.git
-	branch = main
+# [submodule "src/drivers/gps/devices"]
+# 	path = src/drivers/gps/devices
+# 	url = https://github.com/PX4/PX4-GPSDrivers.git
+# 	branch = main
 [submodule "platforms/nuttx/NuttX/nuttx"]
 	path = platforms/nuttx/NuttX/nuttx
 	url = https://github.com/PX4/NuttX.git
@@ -28,16 +28,16 @@
 [submodule "Tools/simulation/jsbsim/jsbsim_bridge"]
 	path = Tools/simulation/jsbsim/jsbsim_bridge
 	url = https://github.com/PX4/px4-jsbsim-bridge.git
-[submodule "src/drivers/cyphal/libcanard"]
-	path = src/drivers/cyphal/libcanard
-	url = https://github.com/opencyphal/libcanard.git
-[submodule "src/drivers/cyphal/public_regulated_data_types"]
-	path = src/drivers/cyphal/public_regulated_data_types
-	url = https://github.com/opencyphal/public_regulated_data_types.git
-[submodule "src/drivers/cyphal/legacy_data_types"]
-	path = src/drivers/cyphal/legacy_data_types
-	url = https://github.com/PX4/public_regulated_data_types.git
-	branch = legacy
+# [submodule "src/drivers/cyphal/libcanard"]
+# 	path = src/drivers/cyphal/libcanard
+# 	url = https://github.com/opencyphal/libcanard.git
+# [submodule "src/drivers/cyphal/public_regulated_data_types"]
+# 	path = src/drivers/cyphal/public_regulated_data_types
+# 	url = https://github.com/opencyphal/public_regulated_data_types.git
+# [submodule "src/drivers/cyphal/legacy_data_types"]
+# 	path = src/drivers/cyphal/legacy_data_types
+# 	url = https://github.com/PX4/public_regulated_data_types.git
+# 	branch = legacy
 [submodule "src/lib/crypto/monocypher"]
 	path = src/lib/crypto/monocypher
 	url = https://github.com/PX4/Monocypher.git
@@ -72,20 +72,20 @@
 	path = src/lib/heatshrink/heatshrink
 	url = https://github.com/PX4/heatshrink.git
 	branch = px4
-[submodule "Tools/simulation/gz"]
-	path = Tools/simulation/gz
-	url = https://github.com/PX4/PX4-gazebo-models.git
-	branch = main
-[submodule "boards/modalai/voxl2/libfc-sensor-api"]
-	path = boards/modalai/voxl2/libfc-sensor-api
-	url = https://gitlab.com/voxl-public/voxl-sdk/core-libs/libfc-sensor-api.git
-[submodule "src/drivers/actuators/vertiq_io/iq-module-communication-cpp"]
-	path = src/drivers/actuators/vertiq_io/iq-module-communication-cpp
-	url = https://github.com/PX4/iq-module-communication-cpp.git
-	branch = master
-[submodule "src/drivers/uavcan/libdronecan/dsdl"]
-	path = src/drivers/uavcan/libdronecan/dsdl
-	url = https://github.com/PX4/DSDL.git
-[submodule "src/drivers/uavcan/libdronecan/libuavcan/dsdl_compiler/pydronecan"]
-	path = src/drivers/uavcan/libdronecan/libuavcan/dsdl_compiler/pydronecan
-	url = https://github.com/dronecan/pydronecan
+# [submodule "Tools/simulation/gz"]
+# 	path = Tools/simulation/gz
+# 	url = https://github.com/PX4/PX4-gazebo-models.git
+# 	branch = main
+# [submodule "boards/modalai/voxl2/libfc-sensor-api"]
+# 	path = boards/modalai/voxl2/libfc-sensor-api
+# 	url = https://gitlab.com/voxl-public/voxl-sdk/core-libs/libfc-sensor-api.git
+# [submodule "src/drivers/actuators/vertiq_io/iq-module-communication-cpp"]
+# 	path = src/drivers/actuators/vertiq_io/iq-module-communication-cpp
+# 	url = https://github.com/PX4/iq-module-communication-cpp.git
+# 	branch = master
+# [submodule "src/drivers/uavcan/libdronecan/dsdl"]
+# 	path = src/drivers/uavcan/libdronecan/dsdl
+# 	url = https://github.com/PX4/DSDL.git
+# [submodule "src/drivers/uavcan/libdronecan/libuavcan/dsdl_compiler/pydronecan"]
+# 	path = src/drivers/uavcan/libdronecan/libuavcan/dsdl_compiler/pydronecan
+# 	url = https://github.com/dronecan/pydronecan
