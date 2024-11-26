@@ -12,6 +12,8 @@
 .project
 .settings
 .swp
+.cache
+/install
 .~lock.*
 Testing/
 Packages/*
