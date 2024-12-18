@@ -71,53 +71,53 @@ if(gazebo_FOUND)
 	)
 
 	set(models
-		advanced_plane
-		believer
-		boat
-		cloudship
-		glider
+# advanced_plane
+# believer
+# boat
+# cloudship
+# glider
 		iris
 		iris_dual_gps
 		iris_foggy_lidar
 		iris_irlock
 		iris_obs_avoid
 		iris_depth_camera
-		iris_downward_depth_camera
-		iris_opt_flow
-		iris_opt_flow_mockup
-		iris_rplidar
+# iris_downward_depth_camera
+# iris_opt_flow
+# iris_opt_flow_mockup
+# iris_rplidar
 		iris_vision
 		iris_velodyne_cam
-		omnicopter
-		plane
-		plane_cam
-		plane_catapult
-		plane_lidar
-		px4vision
-		quadtailsitter
-		r1_rover
-		rover
-		standard_vtol
-		standard_vtol_drop
-		tailsitter
-		techpod
-		tiltrotor
-		typhoon_h480
-		uuv_bluerov2_heavy
-		uuv_hippocampus
+# omnicopter
+# plane
+# plane_cam
+# plane_catapult
+# plane_lidar
+# px4vision
+# quadtailsitter
+# r1_rover
+# rover
+# standard_vtol
+# standard_vtol_drop
+# tailsitter
+# techpod
+# tiltrotor
+# typhoon_h480
+# uuv_bluerov2_heavy
+# uuv_hippocampus
 	)
 
 	set(worlds
 		none
-		baylands
+# baylands
 		empty
-		ksql_airport
-		mcmillan_airfield
+# ksql_airport
+# mcmillan_airfield
 		ramped_up_wind
-		sonoma_raceway
-		warehouse
+# sonoma_raceway
+# warehouse
 		windy
-		yosemite
+# yosemite
 		v1_simple_world
 	)
 
