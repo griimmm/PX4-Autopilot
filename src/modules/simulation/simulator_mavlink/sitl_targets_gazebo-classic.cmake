@@ -119,6 +119,7 @@ if(gazebo_FOUND)
 		windy
 # yosemite
 		v1_simple_world
+		test
 	)
 
 	# find corresponding airframes
