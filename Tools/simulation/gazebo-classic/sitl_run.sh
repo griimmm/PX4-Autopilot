@@ -132,6 +132,11 @@ if [ -x "$(command -v gazebo)" ]; then
 		sleep 1
 	done
 
+	# while gz model --verbose --spawn-file="/home/grimm/Chalmers/autonomous_vehicles/DAT295-Railway-Inspection-System/src/test_world_gazebo/worlds/models/amp/amp.sdf" --model-name=amp -x 0 -y 0 -z 0  | grep -q "An instance of Gazebo is not running."; do
+    #     echo "Spawning AMP in progress"
+    #     sleep 1
+    # done
+
 	if [[ -n "$HEADLESS" ]]; then
 		echo "not running gazebo gui"
 	else
