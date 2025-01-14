@@ -114,13 +114,14 @@ if(gazebo_FOUND)
 		empty
 # ksql_airport
 # mcmillan_airfield
-		ramped_up_wind
+		# ramped_up_wind
 # sonoma_raceway
 # warehouse
-		windy
+		# windy
 # yosemite
-		v1_simple_world
+		# v1_simple_world
 		test
+		simple
 	)
 
 	# find corresponding airframes
