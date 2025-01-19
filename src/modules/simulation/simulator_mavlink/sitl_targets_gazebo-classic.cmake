@@ -110,7 +110,6 @@ if(gazebo_FOUND)
 
 	set(worlds
 		none
-		simple
 # baylands
 		empty
 # ksql_airport
