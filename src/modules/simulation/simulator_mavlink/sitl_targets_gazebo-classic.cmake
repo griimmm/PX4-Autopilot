@@ -88,6 +88,7 @@ if(gazebo_FOUND)
 # iris_rplidar
 		iris_vision
 		iris_velodyne_cam
+		amp
 # omnicopter
 # plane
 # plane_cam

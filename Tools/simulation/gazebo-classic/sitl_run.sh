@@ -127,15 +127,15 @@ if [ -x "$(command -v gazebo)" ]; then
 		echo "Using: ${modelpath}/${model}/${model}.sdf"
 	fi
 
-	while gz model --verbose --spawn-file="${modelpath}/${model}/${model_name}.sdf" --model-name=${model} -x 2.5 -y 2.0 -z 0.83 2>&1 | grep -q "An instance of Gazebo is not running."; do
+	while gz model --verbose --spawn-file="${modelpath}/${model}/${model_name}.sdf" --model-name=${model} -x -0.2 -y -145 -z 0.83 2>&1 | grep -q "An instance of Gazebo is not running."; do
 		echo "gzserver not ready yet, trying again!"
 		sleep 1
 	done
 
-	# while gz model --verbose --spawn-file="/home/grimm/Chalmers/autonomous_vehicles/DAT295-Railway-Inspection-System/src/test_world_gazebo/worlds/models/amp/amp.sdf" --model-name=amp -x 0 -y 0 -z 0  | grep -q "An instance of Gazebo is not running."; do
-    #     echo "Spawning AMP in progress"
-    #     sleep 1
-    # done
+	while gz model --verbose --spawn-file="${modelpath}/amp/amp.sdf" --model-name=amp -x -0.2 -y -140.37 -z 1.01  | grep -q "An instance of Gazebo is not running."; do
+        echo "Spawning AMP in progress"
+        sleep 1
+    done
 
 	if [[ -n "$HEADLESS" ]]; then
 		echo "not running gazebo gui"
